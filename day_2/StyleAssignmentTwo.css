@@ -2,6 +2,12 @@
     display: flex;
     flex-direction: row;
     gap: 20%;
+    background-color: lightslategray;
+    height: 350px;
+    width: 900px;
+    margin-top: 20px;
+    margin-left: 20px;
+    border-radius: 3%;
 }
 
 .profile-pic{
@@ -17,7 +23,8 @@
   display: flex;
   flex-direction: row;
   justify-content: flex-start;  
-  gap: 2%;
+  gap: 25%;
+  padding-top: 8px;
 }
 .right-profile{
 padding-top: 50px;
@@ -56,4 +63,20 @@ display: flex;
 flex-direction: row;
 justify-content: space-between;
 margin-top: 30px;
+}
+.bottom-profile{
+  padding-top: 75px;
+}
+/* .bottom-profile-two{
+  padding-top: 50px;
+} */
+
+.left-profile{
+  margin-left: 50px;
+  margin-top: 20px;
+}
+.bio{
+  display: flex;
+  flex-direction: column;
+  gap: 1%;
 }
