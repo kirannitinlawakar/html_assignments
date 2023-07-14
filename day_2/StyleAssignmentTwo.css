@@ -1,3 +1,9 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    gap: 20%;
+}
+
 .profile-pic{
   width: 100px;
   height: 100px;
@@ -6,12 +12,48 @@
 .title{
     margin-left: 5px;
 }
-.sub-title{
-    /* padding-bottom: 500px; */
-}
+
 .icons{
   display: flex;
   flex-direction: row;
   justify-content: flex-start;  
-  gap: 1%;
+  gap: 2%;
+}
+.right-profile{
+padding-top: 50px;
+}
+
+label {
+  padding-right: 10px;
+  font-size: 1rem;
+}
+
+progress {
+  width: 300px;
+  height : 15px;
+  border: 2px solid lightgrey;
+  border-radius: 8px;
+  /* border-radius: 50%; */
+}
+/* progress::-webkit-progress-bar {
+  background-color: green;
+} */
+progress::-webkit-progress-value {
+  background-color: orange;
+  border-radius: 8px;
+
+}
+progress::-webkit-progress-bar {
+  background-color: lightgray;
+}
+.info{
+  margin-top: 17px;
+  height: 20px;
+  width: 20px;
+}
+.org-info{
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+margin-top: 30px;
 }
