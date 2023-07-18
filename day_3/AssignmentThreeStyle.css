@@ -1,3 +1,30 @@
+.container{
+    display: flex;
+    flex-direction: row;
+}
+
+.left-container{
+    background-color: lightgrey;
+    margin-left: 15px;
+    margin-top: 25px;
+    height: 600px;
+    width: 400px;
+    border-top-left-radius: 4%;
+    border-bottom-left-radius: 4%;
+}
+
+.right-container{
+    height: 600px;
+    margin-left: 50px;
+    margin-top: 20px;
+
+
+}
+
+.profile-info{
+padding-left: 25px;
+}
+
 .profile{
     height: 80px;
     width: 80px;
@@ -20,11 +47,64 @@
     font-size: 20px;
 }
 
+.menu{
+    padding-left: 25px;
+    display: flex;
+    flex-direction: row;
+    /* gap: 1px; */
+}
+
 .menu-info{
-    padding-top: 50px;
+    /* padding-left: 2px; */
+    padding-top: 54px;
     display: flex;
     flex-direction: column;
     font-size: 18px;
     gap:30px
 
+}
+.icons{
+    padding-top: 55px;
+    display: flex;
+    flex-direction: column;
+    gap:35px
+
+}
+.g-img{
+    height: 20px;
+    width: 20px;
+    background-color: lightgrey;
+}
+.p-img{
+    height: 15px;
+    width: 15px;
+    background-color:lightgray;
+}
+.i-img{
+    height: 15px;
+    width: 15px;
+    background-color: lightgray;
+}
+.b-img{
+    height: 15px;
+    width: 15px;
+    background-color: lightgrey;
+}
+.a-img{
+    height: 15px;
+    width: 15px;
+    background-color: lightgray;
+}
+.l-img{
+    padding-top: 150px;
+    height: 15px;
+    width: 15px;
+    background-color: lightgrey;
+}
+.log{
+    padding-top: 145px;
+ 
+}
+.table-header{
+    color: navy;
 }
