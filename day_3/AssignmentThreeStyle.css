@@ -17,6 +17,8 @@
     height: 600px;
     margin-left: 50px;
     margin-top: 20px;
+    /* background-color: brown; */
+    width: 700px;
 
 
 }
@@ -105,6 +107,58 @@ padding-left: 25px;
     padding-top: 145px;
  
 }
+
+.billing-table{
+padding-top: 25px;
+width: 50%
+}
+
 .table-header{
     color: navy;
+}
+.b-1{
+    height: 25px;
+    background-color: white;
+    border-radius: 14%;
+    border-color: lightgray;
+    border-width: 1px;
+}
+.b-2{
+    height: 25px;
+    background-color: white;
+    border-radius: 14%;
+    border-color: lightgray;
+    border-width: 1px;
+}
+.b-3{
+    height: 25px;
+    background-color: white;
+    border-radius: 14%;
+    border-color: lightgray;
+    border-width: 1px;
+}
+.b-4{
+    height: 25px;
+    background-color: white;
+    border-radius: 14%;
+    border-color: lightgray;
+    border-width: 1px;
+}
+.load{
+    padding-top: 30px;
+    color: brown;
+}
+.payment-method{
+    padding-top: 50px;
+}
+
+.visa-img{
+height: 60px;
+width: 60px;
+border-color: lightgray;
+
+}
+.visa{
+    display: flex;
+    gap: 15px;
 }
