@@ -8,7 +8,7 @@
     margin-left: 15px;
     margin-top: 25px;
     height: 600px;
-    width: 400px;
+    width: 1000px;
     border-top-left-radius: 4%;
     border-bottom-left-radius: 4%;
 }
@@ -18,18 +18,16 @@
     margin-left: 50px;
     margin-top: 20px;
     /* background-color: brown; */
-    width: 700px;
-
-
-}
+    /* width: 10000px; */
+    }
 
 .profile-info{
 padding-left: 25px;
 }
 
 .profile{
-    height: 80px;
-    width: 80px;
+    height: 40px;
+    width: 40px;
     border-radius: 20%;
     margin-top: 15px;
 }
@@ -42,11 +40,11 @@ padding-left: 25px;
 .title{
     padding-left: 15px;
     display: flex;
-    flex-direction: column;    
+    flex-direction: column; 
 }
 
 .sub-title{
-    font-size: 20px;
+    font-size: 15px;
 }
 
 .menu{
@@ -107,11 +105,38 @@ padding-left: 25px;
     padding-top: 145px;
  
 }
+/* .y-1{
+    /* display: flex; */
+    /* padding-left: 700px; */
+    /* gap: 500px; */
+    /* margin-top: 500px; */
+
+.y-2{
+    color: white;
+    /* margin: 50px; */
+    text-align: left;
+    /* padding-left: 500px;
+    margin-top: 100px; */
+    background-color: orangered;
+    width: 500px;
+    height: 200px;
+    padding-left: 100px;
+    justify-content: end;
+    border-radius: 5%;
+    /* width: 500px; */
+    /* margin-left: auto; */
+}
+
 
 .billing-table{
-padding-top: 25px;
-width: 50%
+    padding-top: 25px;
+    width: 50%;
+    display: flex;
+    gap: 180px;
 }
+/* .right-two{
+    margin-left: 1000px;
+} */
 
 .table-header{
     color: navy;
@@ -161,4 +186,22 @@ border-color: lightgray;
 .visa{
     display: flex;
     gap: 15px;
+}
+.remove{
+    height: 25px;
+    padding-top: 20px;
+    padding-left: 60px;
+}
+.yp{
+    padding-right: 70px;
+}
+.t1{
+    width: 1000px;
+}
+.m{
+    border-color: whitesmoke;
+    background-color: orangered;
+    color: white;
+    border-radius: 10%;
+    height: 30px;
 }
